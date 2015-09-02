@@ -13,6 +13,8 @@
 		A8E96C5D1B96F861007CEB44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E96C5C1B96F861007CEB44 /* Images.xcassets */; };
 		A8E96C601B96F861007CEB44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E96C5E1B96F861007CEB44 /* LaunchScreen.xib */; };
 		A8E96C6C1B96F861007CEB44 /* CollectionViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E96C6B1B96F861007CEB44 /* CollectionViewSampleTests.swift */; };
+		A8E96C761B96F98D007CEB44 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E96C751B96F98D007CEB44 /* CustomCell.swift */; };
+		A8E96C781B96FAA5007CEB44 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E96C771B96FAA5007CEB44 /* smile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A8E96C651B96F861007CEB44 /* CollectionViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E96C6A1B96F861007CEB44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8E96C6B1B96F861007CEB44 /* CollectionViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSampleTests.swift; sourceTree = "<group>"; };
+		A8E96C751B96F98D007CEB44 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		A8E96C771B96FAA5007CEB44 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +84,10 @@
 				A8E96C551B96F861007CEB44 /* AppDelegate.swift */,
 				A8E96C571B96F861007CEB44 /* ViewController.swift */,
 				A8E96C591B96F861007CEB44 /* Main.storyboard */,
+				A8E96C751B96F98D007CEB44 /* CustomCell.swift */,
 				A8E96C5C1B96F861007CEB44 /* Images.xcassets */,
 				A8E96C5E1B96F861007CEB44 /* LaunchScreen.xib */,
+				A8E96C771B96FAA5007CEB44 /* smile.png */,
 				A8E96C531B96F861007CEB44 /* Supporting Files */,
 			);
 			path = CollectionViewSample;
@@ -194,6 +200,7 @@
 			files = (
 				A8E96C5B1B96F861007CEB44 /* Main.storyboard in Resources */,
 				A8E96C601B96F861007CEB44 /* LaunchScreen.xib in Resources */,
+				A8E96C781B96FAA5007CEB44 /* smile.png in Resources */,
 				A8E96C5D1B96F861007CEB44 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8E96C581B96F861007CEB44 /* ViewController.swift in Sources */,
+				A8E96C761B96F98D007CEB44 /* CustomCell.swift in Sources */,
 				A8E96C561B96F861007CEB44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				A8E96C711B96F861007CEB44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8E96C721B96F861007CEB44 /* Build configuration list for PBXNativeTarget "CollectionViewSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				A8E96C741B96F861007CEB44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

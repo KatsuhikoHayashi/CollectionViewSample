@@ -2,7 +2,7 @@
 //  CollectionViewSampleTests.swift
 //  CollectionViewSampleTests
 //
-//  Created by 林克彦 on 2015/09/02.
+//  Created by Hayashidesu. on 2015/09/02.
 //  Copyright (c) 2015年 Hayashidesu. All rights reserved.
 //
 
