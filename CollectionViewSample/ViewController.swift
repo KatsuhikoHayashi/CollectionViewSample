@@ -29,6 +29,14 @@ class ViewController: UIViewController {
         return cell
     }
     
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        let width: CGFloat = self.view.frame.width / 3 - 2
+        let height: CGFloat = width
+        return CGSize(width: width, height: height) // The size of one cell
+    }
+   
+    
     // セクションの数（今回は1つだけです）
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
